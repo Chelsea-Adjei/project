@@ -568,6 +568,7 @@ body {
   justify-content: space-between;
   /*width: 100%;*/
   gap: 40px;
+  margin-bottom: 90px;
 }
 
 .the-projects .recent {
@@ -734,4 +735,196 @@ body {
   border: 2px solid #f0a500;
   border-radius: 4px;
   margin: 10px 64px;
+}
+
+.feedbacks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 0;
+  background-color: #fdf2f5;
+  color: #211f1f;
+}
+
+.feedback-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  border-bottom: 2 solid #f0a500;
+  background-color: #fdf2f5;
+  margin-left: 0;
+}
+
+.head-name {
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  text-transform: capitalize;
+}
+
+.feed-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Inter";
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 160%;
+  color: #f0a500;
+  text-transform: capitalize;
+  border: 1px solid #f0a500;
+  border-radius: 6px;
+  padding: 4px;
+}
+
+.comment-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 500;
+  font-style: italic;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.profiles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.d-profile-text {
+  display: flex;
+  text-align: center;
+  font-size: 21px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #6d6d6d;
+}
+
+.david-name {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.david-position {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 35px;
+}
+
+.mary-profile {
+  margin-top: 15px;
+}
+
+.p-text {
+  display: flex;
+  text-align: center;
+  font-size: 21px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #6d6d6d;
+}
+
+.m-profile-name {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.m-career {
+  text-align: center;
+  font-size: 15px;
+}
+
+.ivan-profile {
+  margin-top: 50px;
+}
+
+.ivan-text-1 {
+  display: flex;
+  text-align: center;
+  font-size: 21px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #6d6d6d;
+}
+
+.ivan-name {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.ivan-career {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.team-members {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #fdf2f5;
+  color: #000000;
+}
+
+.tm-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5em;
+  position: sticky;
+  margin-top: 10px;
+  width: 100%;
+  top: 0;
+  color: #000000;
+  background-color: #fff5ff;
+}
+
+.tm-header .navigation2 {
+  display: none;
+}
+
+.tm-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+.tm-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: #f0a500;
+  border: 1px solid #f0a500;
+  border: 4px;
+  padding: 4px;
+  margin-bottom: 30px;
 }
