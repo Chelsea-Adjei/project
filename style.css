@@ -15,7 +15,7 @@ body {
   font-size: 20px;
   flex-direction: column;
   color: #fff;
-  padding: 1em;
+  /**padding: 1em;*/
   height: 100vh;
   font-family: "Inter", sans-serif;
   /*overflow: none;*/
@@ -31,7 +31,7 @@ body {
   top: 0;
   border-bottom: 0 solid #f0a500;
   background-color: #211f1f;
-  /*padding: 1em;*/
+  padding: 0.5em;
   margin: 0;
   height: 45px;
   z-index: 1;
@@ -107,7 +107,7 @@ body {
   border: 2px solid #f0a500;
   background: #211f1f;
   position: sticky;
-  top: 0;
+  /*top: 0;*/
   bottom: 1%;
   left: 70%;
   gap: 1px;
@@ -310,6 +310,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  margin-bottom: 15px;
 }
 
 .third .third-1 {
@@ -568,8 +569,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
   /*width: 100%;*/
-  gap: 40px;
-  margin-bottom: 90px;
+  gap: 15px;
+  margin-bottom: 30px;
 }
 
 .the-projects .recent {
@@ -902,7 +903,7 @@ body {
   background-color: #f8f8f8;
 }
 
-.tm-header .navigation2 {
+.tm-header .navigation-2 {
   display: none;
 }
 
@@ -1349,14 +1350,6 @@ body {
 }
 
 .copyright {
-  /*display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #6d6d6d;
-  border-radius: 0px;
-  background-color: #c0c0c0;
-  margin-top: 20px;
-  width: 100%;*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1365,6 +1358,7 @@ body {
   background-color: #ffffff;
   width: 100%;
   height: 45px;
+  border: 1px solid #6d6d6d;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -1377,12 +1371,87 @@ body {
   font-weight: 700;
 }
 
-@media (min-width: 769px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 780px) {
   .header {
     width: 100%;
     height: 65px;
     position: static;
-    padding: 1.5em;
+    padding: 1em;
+  }
+
+  .header .logo {
+    font-size: 25px;
+  }
+
+  .container {
+    gap: 10px;
+  }
+
+  .co-1 {
+    width: 230px;
+    height: 115px;
+    gap: 30px;
+    height: 70dvh;
+  }
+
+  .co-1 .co-text {
+    width: 555px;
+    font-size: 300%;
+    font-weight: bolder;
+    text-align: left;
+    margin: 25px;
+    position: absolute;
+    top: 175px;
+  }
+
+  .container .co-1-text {
+    font-size: 15px;
+    font-weight: 700;
+    text-align: left;
+    width: 330px;
+    height: 25px;
+    text-transform: capitalize;
+    line-height: 160%;
+    position: absolute;
+    top: 44%;
+    margin: 30px;
+  }
+
+  .container .co-2 {
+    width: 245px;
+    height: 170px;
+    left: 420px;
+    bottom: 499px;
+  }
+
+  .container .the-text {
+    position: absolute;
+    left: 87%;
+    top: 49%;
+  }
+
+  .button {
+    position: absolute;
+    top: 52%;
+    left: 5%;
+    gap: 20px;
+  }
+
+  .text-text-1 {
+    position: absolute;
+    bottom: 34%;
+    font-size: 20px;
+    left: 3%;
+  }
+
+}
+
+@media (min-width: 785px) and (max-width: 990px) {
+  .header {
+    position: static;
+    width: 100%;
+    height: 80px;
+    padding: 1em;
   }
 
   .header .logo {
@@ -1413,7 +1482,7 @@ body {
     padding: 5px 10px;
     font-family: "Inter", sans-serif;
     font-weight: bolder;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .header-btn {
@@ -1427,94 +1496,260 @@ body {
   }
 
   .container {
-    padding: 2.5em;
     gap: 10px;
   }
 
-  .everything {
-    gap: 30px;
-  }
-
   .co-1 {
-    width: 230px;
-    height: 115px;
-    gap: 30px;
+    height: 90vh;
   }
 
   .co-1 .co-text {
-    font-size: 55px;
-    font-weight: bolder;
-    text-align: left;
-  }
-
-  .container .co-1-text {
-    font-size: 15px;
-    font-weight: 700;
-    text-align: left;
-    width: 330px;
-    height: 25px;
-    text-transform: capitalize;
-    line-height: 160%;
-    margin: 0px;
-  }
-
-  .co-2 {
-    width: 245px;
-    height: 170px;
-    left: 355px;
-    bottom: 115px;
-  }
-
-  .container .the-text {
     position: absolute;
-    left: 82%;
-    top: 33%;
+    top: 27%;
+    left: 5%;
+    font-size: 80px;
+    text-align: left;
+    width: 555px;
+    font-size: 300%;
+    font-weight: bolder;
+  }
+
+  .co-1 .co-1-text {
+    position: absolute;
+    top: 48%;
+    left: 3%;
+    font-size: 16px;
+    text-align: left;
+    line-height: 130%;
+    text-transform: capitalize;
+    font-weight: 500;
+    width: 350px;
+    height: 25px;
   }
 
   .button {
     position: absolute;
-    top: 33%;
-    left: 9%;
-    /*margin-bottom: 12px;*/
-    gap: 20px;
+    bottom: 37%;
+    left: 5%;
   }
 
-  .co-3-btn-1 {
+  .co-2 {
+    position: absolute;
+    bottom: 53%;
+    left: 52%;
+  }
+
+  .container .the-text {
+    position: absolute;
+    top: 48%;
+    left: 83%;
   }
 
   .text-text-1 {
     position: absolute;
+    bottom: 33%;
+    left: 5%;
   }
 
-  .first-text {
-    position: absolute;
-    left: 45%;
+  .second-page {
+    height: 90vh;
   }
 
   .second-page .first-text .text-1 {
-    font-size: 33px;
-    text-align: left;
-    font-weight: 700;
-    line-height: 130%;
+    font-size: 27px;
   }
 
   .pictures {
+    max-width: 100%;
+    height: auto;
+    display: block;
     position: absolute;
-    left: 30px;
-  }
-
-  .pictures .picture-1 {
-    width: 80px;
-  }
-
-  .mid-text {
-    padding: 3.5em;
+    top: 126%;
+    left: 15%;
   }
 
   .mid-text .middle-text {
-    position: absolute;
-    left: 30%;
-    font-size: 25px;
-    text-align: left;
+    margin-top: 60px;
   }
+
+  .mid-text .grouping {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 160%;
+    left: 15%;
+  }
+
+  .grouping .other-texts .one {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  .grouping .other-texts .one-a {
+    font-weight: bolder;
+    width: 67%;
+    margin-top: 10px;
+  }
+
+  .sec-text .sec {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  .sec-text .sec-1 {
+    font-weight: bolder;
+    width: 67%;
+    margin-top: 10px;
+  }
+
+  .third .third-1 {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  .third .third-2 {
+    font-weight: bolder;
+    width: 67%;
+    margin-top: 10px;
+  }
+
+  .page-four {
+    background-image: linear-gradient(rgba(218, 49, 49, 0.267), #e2b624, #a568);
+  }
+
+  .services .header {
+    width: 100%;
+    height: 70px;
+    position: sticky;
+  }
+
+  .header .our-service {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #000000;
+    line-height: 160%;
+  }
+
+  .services .services-text {
+    font-size: 40px;
+  }
+
+  .the-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .page-four  .projects {
+    height: 65px;
+    padding: 1.5em;
+  }
+
+  .projects .title {
+    font-size: 30px;
+    line-height: 160%;
+  }
+
+  .the-projects {
+    width: 60%;
+  }
+
+  .feedback-heading {
+    height: 68px;
+    padding: 0.5em;
+  }
+
+  .feedback-heading .head-name {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  .feed-head {
+    font-size: 13px;
+  }
+
+  .comment-text {
+    font-size: 18px;
+  }
+
+  .d-profile-text {
+    font-size: 25px;
+    text-align: center;
+    width: 60%;
+    margin-left: 150px;
+  }
+
+  .p-text {
+    font-size: 25px;
+    text-align: center;
+    width: 60%;
+    margin-left: 150px;
+  }
+
+  .ivan-text-1 {
+    font-size: 25px;
+    text-align: center;
+    width: 60%;
+    margin-left: 150px;
+  }
+
+  .navigation-2 .nav-bar {
+    display: none;
+  }
+
+  .tm-header {
+    height: 68px;
+    padding: 1em;
+  }
+
+  .tm-name {
+    font-size: 33px;
+    font-weight: bolder;
+  }
+
+  .tm-11 {
+    font-size: 16px;
+    padding: 5px;
+    width: 100%;
+  }
+
+  .foot-words {
+    font-size: 18px;
+    width: 70%;
+    text-align: center;
+  }
+
+  .end-of-page .all-texts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+
+  .face-icon {
+    width: 40px;
+  }
+
+  .link-icon {
+    width: 40px;
+  }
+
+  .insta-icon {
+    width: 40px;
+  }
+
+  .copyright {
+    width: 855px;
+    height: 55px;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1289px) {
+  
 }
