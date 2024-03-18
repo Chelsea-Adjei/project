@@ -354,11 +354,11 @@ body {
 
 .header .our-service {
   font-family: "Inter";
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 900;
   color: #211f1f;
   line-height: 130%;
-  padding: 0px 5px;
+  padding: 0px;
   /*margin-left: 7px;*/
 }
 
@@ -367,7 +367,7 @@ body {
   justify-content: space-between;
   align-items: center;
   font-family: "Inter";
-  font-size: 12px;
+  font-size: 9px;
   font-weight: 600;
   line-height: 160%;
   color: #f0a500;
@@ -375,8 +375,8 @@ body {
   border: 1px solid #f0a500;
   border-radius: 4px;
   padding: 5px;
-  /*margin-right: 15px;*/
-  /*width: 100px;/*
+  /*width: 83px;
+    height: 34px;
     /*gap: 10px;*/
 }
 
@@ -386,6 +386,9 @@ body {
     margin: 40px;
 }*/
 
+.service-text1 .serv {
+  display: none;
+}
 .services-text p {
   color: #6d6d6d;
   font-size: 16px;
@@ -1805,7 +1808,7 @@ body {
   }
 
   .co-1 {
-    height: 70vh;
+    height: 80vh;
   }
 
   .co-1 .co-text {
@@ -1830,7 +1833,7 @@ body {
 
   .co-2 {
     position: absolute;
-    left: 60%;
+    left: 54%;
     top: 30%;
   }
 
@@ -1842,6 +1845,9 @@ body {
   .co-2-img-2 {
     width: 330px;
     height: 275px;
+    position: absolute;
+    left: 30%;
+    top: 20%;
   }
 
   .button {
@@ -1872,7 +1878,150 @@ body {
 
   .container .the-text {
     position: absolute;
-    left: 80%;
-    top: 63%;
+    left: 84%;
+    top: 74%;
+    width: 98px;
+    height: 60px;
+  }
+
+  .second-page {
+    height: 100vh;
+  }
+
+  .second-page .first-text .text-1 {
+    font-size: 43px;
+    position: absolute;
+    left: 55%;
+    top: 126%;
+    text-align: left;
+  }
+
+  .second-page .pictures {
+    display: block;
+    position: absolute;
+    top: 140%;
+    left: 5%;
+  }
+
+  .mid-text .middle-text {
+    font-size: 25px;
+    width: 40%;
+    position: absolute;
+    left: 55%;
+    top: 147%;
+    text-align: left;
+  }
+
+  .second-page .grouping {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 168%;
+    left: 56%;
+  }
+
+  .grouping .other-texts .one {
+    font-size: 38px;
+  }
+
+  .grouping .sec-text .sec {
+    font-size: 38px;
+  }
+
+  .grouping .third .third-1 {
+    font-size: 38px;
+  }
+
+  .services .header {
+    padding: 3em;
+    position: sticky;
+    width: 100%;
+    height: 60px;
+  }
+
+  .header .our-service {
+    font-size: 37px;
+    font-weight: bolder;
+    line-height: 130%;
+    text-align: left;
+  }
+
+  .header .see-all {
+    font-size: 17px;
+    width: 150px;
+    height: 49px;
+    padding: 15px;
+  }
+
+  .services-text .text-t {
+    font-size: 26px;
+  }
+
+  .the-services {
+    display: ruby-text-container;
+    justify-content: space-around;
+  }
+
+  .page-four .projects {
+    height: 60px;
+    padding: 40px;
+  }
+
+  .projects .title {
+    font-size: 32px;
+    line-height: 160%;
+  }
+
+  .projects .rec-22 {
+    font-size: 16px;
+  }
+
+  .feedback-heading {
+    height: 60px;
+    padding: 40px;
+  }
+
+  .feedback-heading .feed-head {
+    font-size: 18px;
+  }
+
+  .head-name {
+    font-size: 32px;
+    line-height: 160%;
+  }
+
+  .d-profile-text {
+    font-size: 26px;
+  }
+
+  .tm-header {
+    height: 60px;
+    padding: 40px;
+  }
+
+  .tm-name {
+    font-size: 35px;
+    line-height: 160%;
+  }
+
+  .tm-1 {
+    font-size: 16px;
+  }
+
+  .all-texts {
+    width: 60%;
+    flex-direction: row;
+    gap: 90px;
+  }
+
+  .foot-name {
+    font-size: 27px;
+  }
+
+  .foot-words {
+    font-size: 20px;
+    text-align: center;
+    width: 60%;
   }
 }
