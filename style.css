@@ -15,10 +15,9 @@ body {
   font-size: 20px;
   flex-direction: column;
   color: #fff;
-  /**padding: 1em;*/
   height: 100vh;
   font-family: "Inter", sans-serif;
-  /*overflow: none;*/
+  overflow-x: hidden;
 }
 
 .header {
@@ -58,8 +57,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /*align-items: center;*/
-  /*padding: 1.5em;*/
 }
 
 .co-1 .co-text {
@@ -107,7 +104,6 @@ body {
   border: 2px solid #f0a500;
   background: #211f1f;
   position: sticky;
-  /*top: 0;*/
   bottom: 1%;
   left: 70%;
   gap: 1px;
@@ -130,13 +126,11 @@ body {
 .co-2-text-1 {
   display: flex;
   justify-content: space-between;
-  /*align-items: center;*/
   width: 88px;
   text-align: center;
   font-family: "Inter";
   font-size: 9px;
   font-weight: 700;
-  /*line-height: 160%;*/
 }
 
 .button {
@@ -161,7 +155,6 @@ body {
   border-radius: 4px;
   line-height: 50%;
   padding: 10px 20px;
-  /*text-transform: capitalize;*/
   gap: 2px;
 }
 
@@ -180,7 +173,6 @@ body {
   border: 2px solid #f0a500;
   padding: 10px 20px;
   gap: 2px;
-  /*text-transform: capitalize;*/
 }
 
 .text-text {
@@ -266,7 +258,6 @@ body {
 }
 
 .other-texts .one {
-  /*color:#211F1F;*/
   font-family: "Inter";
   font-style: normal;
   font-size: 20px;
@@ -344,7 +335,6 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1.5em;
-  /*position: sticky;*/
   margin-top: 0px;
   width: 100%;
   top: 0;
@@ -359,7 +349,6 @@ body {
   color: #211f1f;
   line-height: 130%;
   padding: 0px;
-  /*margin-left: 7px;*/
 }
 
 .header .see-all {
@@ -375,16 +364,7 @@ body {
   border: 1px solid #f0a500;
   border-radius: 4px;
   padding: 5px;
-  /*width: 83px;
-    height: 34px;
-    /*gap: 10px;*/
 }
-
-/*.header .arrow {
-    display: flex;
-    align-items: center;
-    margin: 40px;
-}*/
 
 .service-text1 .serv {
   display: none;
@@ -572,7 +552,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /*width: 100%;*/
   gap: 15px;
   margin-bottom: 30px;
 }
@@ -585,8 +564,6 @@ body {
 }
 
 .interior .int {
-  /*width: 125%;
-    height: 180%;*/
   margin-left: 12px;
 }
 
@@ -612,7 +589,8 @@ body {
   display: flex;
   justify-content: space-around;
   font-family: "Inter", sans-serif;
-  font-size: 17px;
+  font-size: 16px;
+  width: 95%;
 }
 
 .bor-arrow {
@@ -650,18 +628,17 @@ body {
   display: flex;
   justify-content: space-around;
   font-family: "Inter", sans-serif;
-  font-size: 17px;
+  font-size: 16px;
+  width: 95%;
 }
 
 .arrow-arrow {
-  /*margin-top: 5px;*/
   display: flex;
   justify-content: center;
   align-items: center;
   width: 30%;
   border: 2px solid #f0a500;
   border-radius: 4px;
-  /*margin-left: 30px;*/
   margin: 10px 64px;
 }
 
@@ -690,18 +667,17 @@ body {
   display: flex;
   justify-content: space-around;
   font-family: "Inter", sans-serif;
-  font-size: 17px;
+  font-size: 16px;
+  width: 95%;
 }
 
 .arrow-1 {
-  /*margin-top: 5px;*/
   display: flex;
   justify-content: center;
   align-items: center;
   width: 30%;
   border: 2px solid #f0a500;
   border-radius: 4px;
-  /*margin-left: 30px;*/
   margin: 10px 64px;
 }
 
@@ -730,7 +706,8 @@ body {
   display: flex;
   justify-content: space-around;
   font-family: "Inter", sans-serif;
-  font-size: 17px;
+  font-size: 16px;
+  width: 95%;
 }
 
 .struct-arrow {
@@ -1379,7 +1356,7 @@ body {
   .header {
     width: 100%;
     height: 65px;
-    position: static;
+    position: sticky;
     padding: 1em;
   }
 
@@ -1509,50 +1486,84 @@ body {
 
   .co-1 .co-text {
     position: absolute;
-    top: 27%;
-    left: 5%;
-    font-size: 80px;
-    text-align: left;
-    width: 555px;
-    font-size: 300%;
+    top: 62%;
+    left: 17%;
+    text-align: center;
+    font-size: 42px;
     font-weight: bolder;
   }
 
   .co-1 .co-1-text {
     position: absolute;
-    top: 48%;
-    left: 3%;
-    font-size: 16px;
-    text-align: left;
+    top: 67%;
+    left: 14%;
+    font-size: 24px;
+    text-align: center;
     line-height: 130%;
     text-transform: capitalize;
     font-weight: 500;
-    width: 350px;
-    height: 25px;
+    width: 70%;
   }
 
   .button {
     position: absolute;
-    bottom: 37%;
-    left: 5%;
+    bottom: 15%;
+    left: 26%;
+  }
+
+  .co-3-btn-1 {
+    width: 159px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .co-3-btn-2 {
+    width: 239px;
+    height: 42px;
+    font-size: 21px;
   }
 
   .co-2 {
     position: absolute;
-    bottom: 53%;
-    left: 52%;
+    bottom: 52%;
+    left: 20%;
+  }
+
+  .co-2-img-1 {
+    width: 360px;
+    height: 320px;
+  }
+
+  .co-2-img-2 {
+    width: 355px;
+    height: 334px;
+    position: absolute;
+    left: 27%;
+    top: 15%;
   }
 
   .container .the-text {
     position: absolute;
-    top: 48%;
-    left: 83%;
+    top: 50%;
+    left: 60%;
+    width: 170px;
+    height: 75px;
+  }
+
+  .co-2-text {
+    font-size: 27px;
+  }
+
+  .co-2-text-1 {
+    font-size: 17px;
+    width: 160px;
   }
 
   .text-text-1 {
     position: absolute;
-    bottom: 33%;
-    left: 5%;
+    bottom: 10%;
+    left: 22%;
+    font-size: 25px;
   }
 
   .second-page {
@@ -1636,15 +1647,24 @@ body {
     line-height: 160%;
   }
 
+  .header .see-all {
+    font-size: 15px;
+  }
+
   .services .services-text {
     font-size: 40px;
   }
 
+  .services-text .text-t {
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+
   .the-services {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
+    font-size: 50px;
+    width: 59%;
   }
 
   .page-four  .projects {
@@ -1754,7 +1774,7 @@ body {
   }
 }
 
-@media (min-width: 991px) and (max-width: 1289px) {
+@media (min-width: 991px) and (max-width: 1300px) {
   .header {
     height: 70px;
     padding: 3em;
@@ -1791,7 +1811,7 @@ body {
     padding: 5px 10px;
     font-family: "Inter", sans-serif;
     font-weight: bolder;
-    font-size: 17px;
+    font-size: 20px;
   }
 
   .header-btn {
@@ -1808,7 +1828,7 @@ body {
   }
 
   .co-1 {
-    height: 80vh;
+    height: 80dvh;
   }
 
   .co-1 .co-text {
@@ -1834,19 +1854,28 @@ body {
   .co-2 {
     position: absolute;
     left: 54%;
-    top: 30%;
+    top: 26%;
+  }
+
+  .co-2-text {
+    font-size: 30px;
+  }
+
+  .co-2-text-1 {
+    font-size: 18px;
+    width: 172px;
   }
 
   .co-2-img-1 {
-    width: 350px;
-    height: 290px;
+    width: 380px;
+    height: 330px;
   }
 
   .co-2-img-2 {
-    width: 330px;
-    height: 275px;
+    width: 370px;
+    height: 330px;
     position: absolute;
-    left: 30%;
+    left: 27%;
     top: 20%;
   }
 
@@ -1854,34 +1883,37 @@ body {
     position: absolute;
     width: 41%;
     top: 74%;
+    left: 3%;
   }
 
   .co-3-btn-1 {
-    width: 134px;
+    width: 154px;
     height: 43px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
   }
 
   .co-3-btn-2 {
-    width: 165px;
+    width: 230px;
     height: 43px;
-    font-size: 14px;
+    font-size: 19px;
     font-weight: 700;
   }
 
-  .text-text {
+  .text-text-1 {
     position: absolute;
     width: 38%;
-    top: 87%;
+    top: 89%;
+    left: 3%;
+    font-size: 20px;
   }
 
   .container .the-text {
     position: absolute;
-    left: 84%;
-    top: 74%;
-    width: 98px;
-    height: 60px;
+    left: 79%;
+    top: 76%;
+    width: 180px;
+    height: 87px;
   }
 
   .second-page {
@@ -1958,10 +1990,10 @@ body {
     font-size: 26px;
   }
 
-  .the-services {
+  /*.the-services {
     display: ruby-text-container;
     justify-content: space-around;
-  }
+  }*/
 
   .page-four .projects {
     height: 60px;
@@ -1977,9 +2009,26 @@ body {
     font-size: 16px;
   }
 
+  .the-projects {
+    width: 40%;
+  }
+
+  .profiles {
+    width: 50%;
+  }
+
+  .comment-text {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
   .feedback-heading {
     height: 60px;
     padding: 40px;
+  }
+
+  .feed-head1 {
+    font-size: 22px;
   }
 
   .feedback-heading .feed-head {
@@ -1992,6 +2041,14 @@ body {
   }
 
   .d-profile-text {
+    font-size: 26px;
+  }
+
+  .p-text {
+    font-size: 26px;
+  }
+
+  .ivan-text-1 {
     font-size: 26px;
   }
 
@@ -2009,6 +2066,10 @@ body {
     font-size: 16px;
   }
 
+  .team-info-1 {
+    font-size: 24px;
+  }
+
   .all-texts {
     width: 60%;
     flex-direction: row;
@@ -2024,4 +2085,5 @@ body {
     text-align: center;
     width: 60%;
   }
+
 }
